@@ -1,0 +1,91 @@
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+.header,
+.footer,
+.info,
+.testimonial,
+.cta {
+  padding: 10px 20%;
+}
+
+body {
+  min-height: 1vh;
+  min-width: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: none;
+  font-family: roboto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #F9FAF8;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+
+.hero {
+  padding: 100px 20%;
+  display: flex;
+  color: #E5E7EB;
+  font-size: 18px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-content {
+  width: 600px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero-content p {
+  margin: 10px 0;
+}
+
+.hero-button {
+  background: #3882F6;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 30px;
+  color: #E5E7EB;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.image-placeholder {
+  background: rgb(109 116 125);
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

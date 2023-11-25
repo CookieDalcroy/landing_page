@@ -185,3 +185,9 @@ h4 {
   color: #E5E7EB;
   border-radius: 6px;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #E5E7EB;
+}

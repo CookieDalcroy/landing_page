@@ -6,9 +6,8 @@
 
 .header,
 .footer,
-.testimonial,
 .cta {
-  padding: 10px 20%;
+  padding: 15px 20%;
 }
 
 body {
@@ -99,7 +98,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 25%;
+  padding: 6% 23%;
 }
 
 h2 {
@@ -131,4 +130,22 @@ h2 {
 .card-text {
   text-align: center;
   color: rgb(109 116 125);
+}
+
+.testimonial {
+  padding: 6% 25%;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.testimonial blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+.testimonial blockquote footer {
+  font-weight: bold;
+  text-align: end;
 }
